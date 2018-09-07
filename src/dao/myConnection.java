@@ -10,6 +10,7 @@ public class myConnection {
         try {
             System.out.println("XD");
             System.out.println("XD1");
+            System.out.println("qweqweqweqwegyquwyu");
             String strCon = "jdbc:mysql://localhost/"+dbName;
             Class.forName("com.mysql.jdbc.Driver");
             con = DriverManager.getConnection(strCon,dbUser,dbPass);
