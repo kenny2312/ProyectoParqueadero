@@ -10,6 +10,8 @@ public class myConnection {
     public static String dbPass = "";
     public static Connection ConectToMysql(){
         Connection con = null;
+         public static String dbUser = "root";
+         public static String dbUser = "root";
         try {
             String strCon = "jdbc:mysql://localhost/"+dbName;
             Class.forName("com.mysql.jdbc.Driver");
