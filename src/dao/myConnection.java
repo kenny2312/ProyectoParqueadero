@@ -9,6 +9,7 @@ public class myConnection {
         Connection con = null;
         try {
             System.out.println("XD");
+            System.out.println("XD1");
             String strCon = "jdbc:mysql://localhost/"+dbName;
             Class.forName("com.mysql.jdbc.Driver");
             con = DriverManager.getConnection(strCon,dbUser,dbPass);
